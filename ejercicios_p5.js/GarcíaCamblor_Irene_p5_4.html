@@ -1,0 +1,53 @@
+<!doctype html> <!-- Indica que es un documento HTML -->
+<html>
+  <head>
+    <meta charset="utf-8" /> 
+    <title>GarcíaCamblor_Irene_p5_4.html</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Prueba con código</h1>
+<script>
+function setup() {
+  createCanvas(800, 500);   // Cambia estos números y verás que el texto NO se recoloca solo
+  background(240);
+  noStroke();
+  
+
+  // Título centrado "a mano" (hemos elegido 320 porque 640/2 = 320)
+  textSize(28);
+  textAlign(CENTER, TOP);
+  fill(20);
+  text("Balonmano", 320, 16);
+  
+
+  // Subtítulo un poco más abajo
+  textSize(16);
+  fill(60);
+  text("Irene García Camblor", 320, 52);
+
+  // Esquinas: colocadas con números fijos
+  textSize(12);
+  fill(0);
+  textAlign(LEFT, TOP);
+  text("(0, 0)", 6, 6);        // arriba-izquierda
+
+  textAlign(RIGHT, TOP);
+  text("(640, 0)", 634, 6);    // arriba-derecha (hemos escrito 640 a mano)
+
+  textAlign(LEFT, BOTTOM);
+  text("(0, 360)", 6, 354);    // abajo-izquierda (360 a mano)
+
+  textAlign(RIGHT, BOTTOM);
+  text("(640, 360)", 634, 354);// abajo-derecha
+
+  // "Centro" aproximado a mano (320, 180)
+  textAlign(CENTER, CENTER);
+  textSize(14);
+  fill(30);
+  text("Centro (320, 180)", 320, 180);
+}
+</script>
+  </body>
+</html>
