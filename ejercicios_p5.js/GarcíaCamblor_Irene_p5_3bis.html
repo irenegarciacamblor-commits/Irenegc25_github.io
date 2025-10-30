@@ -1,0 +1,135 @@
+<!doctype html> <!-- Indica que es un documento HTML -->
+<html>
+  <head>
+    <meta charset="utf-8" /> 
+    <title>Creación de mi entorno de vida</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Creación de mi entorno de vida</h1>
+
+
+    <script>
+      function setup() {
+    createCanvas(1000, 1000);    // Crea un lienzo de 1000x1000 píxeles
+    background(169, 169, 169);           // Fondo gris
+  
+// Arcos de diferentes colores
+  noFill()
+  stroke(255,0,0)
+  strokeWeight(8)
+  arc(300,740,1100 ,1100 ,PI,0)
+  
+  
+   noFill()
+  stroke(255, 165, 0)
+  strokeWeight(8)
+  arc(300,740,1000, 1000,PI,0)
+   
+   noFill()
+  stroke(255,255,0)
+  strokeWeight(8)
+  arc(300,740,900,900,PI,0)
+  
+  noFill()
+  stroke(60, 179, 113)
+  strokeWeight(8)
+  arc(300,740,800,800,PI,0)
+  
+  noFill()
+  stroke(0, 191, 255)
+  strokeWeight(8)
+  arc(300,740,700,700,PI,0)
+  
+  noFill()
+  stroke(138, 43, 226)
+  strokeWeight(8)
+  arc(300,740,600,600,PI,0)
+  
+  noFill()
+  stroke(255, 20, 147)
+  strokeWeight(8)
+  arc(300,740,500,500,PI,0)
+  
+// Rectángulo coral
+  fill(255, 127, 80)
+  stroke(139, 69, 19);
+  rect(300,600,180,140)
+    stroke(0,0,0)
+	strokeWeight(4)
+    line(340,700,352,700)
+ 
+ 
+     // Rectángulo amarillo
+  fill(240, 230, 140);
+  rect(200, 240, 400, 500);
+ 
+  // Rectángulo azul semitransparente
+  fill(173, 216, 230, 100);           // Azul transparente
+  rect(400, 400, 120, 140);
+  
+  
+   // Rectángulo azul semitransparente
+  fill(173, 216, 230, 100);      //Azul con transparencia
+  rect(240,400, 120, 140);
+  
+  stroke(0,0,0)
+  strokeWeight(2)
+  
+  // Rectángulo marrón 
+  fill(139, 69, 19)
+  rect(350,600,120,160)
+  
+  line(354,660,360,660)
+  
+  // Triángulo rosa
+  fill(219, 112, 147);
+  triangle(194,240,400,20,600,240);
+  
+ 
+  //Círculo amarillo//sol
+  fill(255, 215, 0);
+  circle(0,100,200);
+
+  // Rectángulo verde
+  fill(0,100,0);           // verde// césped
+  rect(0, 740, 1000, 700);
+	
+// Cículos grises
+  fill(128, 128, 128)
+  circle(670,710,60)
+ 
+  fill(105,105,105)
+  circle(670,710,40)
+
+  fill(128, 128, 128)
+  circle(900,710,60)
+
+  fill(105, 105, 105)
+  circle(900,710,40)
+
+stroke(0,0,0)
+strokeWeight(4) 
+
+ //Rectángulo negro// coche
+ fill(105,105,105)
+ rect(610,600,350,100)
+  
+// separación puertas coche
+line(820,480,830,700)
+
+// Parte de arriba del coche
+stroke(0,0,0)
+strokeWeight(4)
+line(670,600,760,480)
+
+line(860,480,760,480)
+
+line(900,600,860,480)
+
+ 
+}
+  </script>
+  </body>
+</html>

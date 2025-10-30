@@ -1,0 +1,39 @@
+
+<!doctype html> <!-- Indica que es un documento HTML -->
+<html>
+  <head>
+    <meta charset="utf-8" /> 
+    <title>Tu nombre</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Escribe aquí lo que quieras</h1>
+
+
+    <script>
+      //Al escribir dentro de esta etiqueta en javascript se ejecutará al final
+    function setup() {
+    createCanvas(800, 800); // Crea un lienzo de 640x360 píxeles
+	background(144, 238, 154)
+    // Genera un color aleatorio para el trazo usando random en cada componente RGB
+    stroke(random(255), random(255), random(255));
+    line(100,100, 300, 100); // Dibuja una línea con ese color
+    stroke(random(255), random(255), random(255));
+    line(200,100, 200, 400); // Dibuja una línea con ese color    
+    stroke(random(255), random(255), random(255));
+    line(100,400, 300, 400); // Dibuja una línea con ese color 
+    stroke(random(255), random(255), random(255));
+    line(400,400, 600, 400); // Dibuja una línea con ese color
+    stroke(random(255), random(255), random(255));
+    line(400,400, 400, 100); // Dibuja una línea con ese color
+    stroke(random(255), random(255), random(255));
+    line(400,100, 600, 100); // Dibuja una línea con ese color
+    stroke(random(255), random(255), random(255));
+    line(600,400, 600, 300); // Dibuja una línea con ese color
+    stroke(random(255), random(255), random(255));
+    line(600,300, 500, 300); // Dibuja una línea con ese color
+    } 
+    </script>
+  </body>
+</html>
